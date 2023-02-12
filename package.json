@@ -1,0 +1,19 @@
+{
+  "name": "userdetails-backend",
+  "version": "1.0.0",
+  "description": "A backend user details functionality for aura application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenivethasr/UserDetailsFunctionality.git"
+  },
+  "author": "Nivetha S R",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/thenivethasr/UserDetailsFunctionality/issues"
+  },
+  "homepage": "https://github.com/thenivethasr/UserDetailsFunctionality#readme"
+}
