@@ -4,7 +4,8 @@
   "description": "A backend user details functionality for aura application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -w src --exec \"babel-node src \"",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,16 @@
   "bugs": {
     "url": "https://github.com/thenivethasr/UserDetailsFunctionality/issues"
   },
-  "homepage": "https://github.com/thenivethasr/UserDetailsFunctionality#readme"
+  "homepage": "https://github.com/thenivethasr/UserDetailsFunctionality#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4"
+  }
 }
-
