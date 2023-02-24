@@ -4,9 +4,7 @@
   "description": "A backend user details functionality for aura application",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -w src --exec \"babel-node src \"",
-    "build": "babel src --out-dir dist",
-    "start": "node dist/index.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +22,11 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
+    "pg": "^8.8.0",
+    "local-storage": "^2.0.0",
+    "otp-generator": "^4.0.0",
+    "twilio": "^3.82.0",
+    "uuid": "^9.0.0",
     "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
