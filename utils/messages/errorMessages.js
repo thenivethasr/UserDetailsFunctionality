@@ -9,6 +9,19 @@ const errorMessage = {
     INVALID_URL: "Invalid URL!",
     USER_NOT_FOUND: "User not found!. Kindly Register",
     PHONE_EVALUATED: "Phone Number Evaluated",
-}
-
-module.exports = errorMessage;
+    EMAIL_REQUIRED: "Email Address Required",
+    EMAIL_INVALID: "Invalid Email Address",
+    PASSWORD_REQUIRED: "Password Required",
+    PASSWORD_MIN_LEN: "Password must be atleast {0} character",
+    PASSWORD_MAX_LEN: "Password must be less than {0} characters",
+    PASSWORD_INVALID: "Password must contain atleast one uppercase letter, one lowercase letter, one digit and one special character",
+    USER_UPDATE_SUCCESS: "User profile updated successfully!",
+    USER_UPDATE_FAILED: "User profile update failed",
+  };
+  
+  module.exports = errorMessage;
+  
+  
+  
+  
+  
